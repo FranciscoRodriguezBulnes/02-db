@@ -1,0 +1,38 @@
+{
+  "name": "02-db",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@ai-sdk/gateway": "^3.0.46",
+    "@ai-sdk/vue": "^3.0.86",
+    "@iconify-json/lucide": "^1.2.87",
+    "@iconify-json/simple-icons": "^1.2.68",
+    "@neondatabase/serverless": "^1.0.2",
+    "@nuxt/ui": "^4.4.0",
+    "ai": "^6.0.86",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "file-type": "^21.3.0",
+    "nuxt": "^4.3.0",
+    "nuxt-auth-utils": "0.5.28",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.1.18",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.13.0",
+    "drizzle-kit": "^0.31.8",
+    "eslint": "^9.39.2",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.2.4"
+  },
+  "packageManager": "pnpm@10.28.2"
+}

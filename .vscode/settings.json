@@ -1,0 +1,28 @@
+{
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.classAttributes": ["class", "ui"],
+  "tailwindCSS.experimental.classRegex": [
+    ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+
+"editor.formatOnSave": true,
+// Prettier como formateador por defecto
+"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }, "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }, "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+"[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+"[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+ //Prettier: permitir comillas simples y dobles
+"prettier.singleQuote": false,
+"prettier.semi": true,
+"prettier.useEditorConfig": false,
+
+// VS Code: no imponer estilo de comillas
+"javascript.preferences.quoteStyle": "auto", "typescript.preferences.quoteStyle": "auto",
+// Tailwind / Nuxt UI: evitar advertencias
+"css.lint.unknownAtRules": "ignore"
+
+}
